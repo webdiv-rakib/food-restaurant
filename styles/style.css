@@ -102,3 +102,54 @@ main{
     opacity: 0.7;
     margin-top: 24px;
 }
+
+/* About Us section design */
+#about-us{
+    
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.foods{
+    width: 960px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.contact-description{
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin-top: 24px;
+}
+.follow{
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.7;
+    width: 100%;
+    border-top: 2px solid rgba(16, 16, 16, 0.2);
+    border-bottom: 2px solid rgba(16, 16, 16, 0.2);
+    padding: 15px 0px;
+    margin-top: 48px;
+}
+.contact-icon{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
