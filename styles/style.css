@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+main{
+    font-family: Work Sans;
+}
 #hero{
     /* width: 1920px; */
     height: 910px;
@@ -10,8 +14,40 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text{
+    width: 1000px;
+    margin: 0 auto;
     text-align: center;
+    color: white;
+}
+
+.title-1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.title-2{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.title-3{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.button-1{
+    padding: 21px 32px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(82, 195, 3);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
 }
