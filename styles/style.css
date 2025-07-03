@@ -7,6 +7,8 @@
 main{
     font-family: Work Sans;
 }
+
+/* Hero section design style */
 #hero{
     /* width: 1920px; */
     height: 910px;
@@ -18,14 +20,12 @@ main{
     justify-content: center;
     align-items: center;
 }
-
 .hero-text{
     width: 1000px;
     margin: 0 auto;
     text-align: center;
     color: white;
 }
-
 .title-1{
     font-size: 32px;
     font-weight: 600;
