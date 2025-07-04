@@ -83,7 +83,6 @@ main {
     margin: 0 auto;
     margin-top: 48px;
 }
-
 .card {
     text-align: center;
     display: flex;
@@ -93,29 +92,37 @@ main {
     width: 424px;
     /* border: 2px dashed #c7c7c7; */
 }
-
 .card-img {
     width: 424px;
 }
-
 .food-name {
     padding: 14px 32px;
     background-color: #52C30326;
     border-radius: 8px;
     margin-top: 32px;
 }
-
 .discount {
     font-size: 40px;
     font-weight: 600;
     margin-top: 24px;
 }
-
 .food-description {
     font-size: 18px;
     font-weight: 500;
     opacity: 0.7;
     margin-top: 24px;
+}
+.btn-main{
+    margin-top: 64px;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    padding: 21px 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: #52C303;
+    color: white;
 }
 
 /* About Us section design */
@@ -178,6 +185,7 @@ main {
 /* Sells Section design */
 #sells {
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 #sells-card {
@@ -190,4 +198,12 @@ main {
     margin: 0 auto;
     border: 2px dashed #c7c7c7;
     border-radius: 15px;
+}
+
+/* Footer Section design */
+#footer-section{
+    height: 671px;
+    background-image: url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
